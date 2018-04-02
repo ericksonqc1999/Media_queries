@@ -1,0 +1,53 @@
+/*AÑADIDO*/
+
+.texto{
+	background: #F10000
+}
+/*VIDEO*/
+.cuerpo{
+	margin-left: 15em; 
+	margin-right: 15em;
+}
+
+.texto{
+	 font-size: 2em;
+	 font-family: "CRYSIS";
+}
+
+.imagen{
+	margin-left:auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+@media (max-width: 1000px){
+	.cuerpo{
+		margin-right:7em; 
+		margin-left:7em;
+	}
+	.texto{
+		font-size: 1.6em;
+		font-family: Arial;
+	}
+	.imagen{
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+}
+
+@media (max-width: 600px){
+	.cuerpo{
+		margin-left: 3em;
+		margin-right: 3em;
+	}
+	.texto{
+		font-size: 1.3em;
+		font-family: "Calibri";
+	}
+	.imagen{
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%
+	}
+}
